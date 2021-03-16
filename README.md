@@ -1,6 +1,6 @@
 # SAIO-Ubuntu18.04
 
-This process demonstrates how to deploy swift all-in-one **(SAIO)** in a Ubuntu 18.04 server. Deploying SAIO can be castigating and time-consuming. This thread shows us how to deploy a minimal SAIO
+This process demonstrates how to deploy Open Stack Swift all-in-one **(SAIO)** in a Ubuntu 18.04 server. Deploying SAIO can be castigating and time-consuming. This thread shows us how to deploy a minimal SAIO
 First, we install some dependencies.
 
  ```bash
@@ -149,7 +149,7 @@ swift-ring-builder container.builder add r1z1-127.0.0.1:6001/d4 100
 swift-ring-builder object.builder add r1z1-127.0.0.1:6000/d4 100
 ```
 
-Once we have created the ring files we need to ```rebalance`` them
+Once we have created the ring files we need to ```rebalance``` them
 
 ```bash
 swift-ring-builder account.builder rebalance

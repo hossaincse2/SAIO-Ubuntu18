@@ -1,6 +1,18 @@
 # SAIO-Ubuntu18.04
 
+<<<<<<< HEAD
+This process demonstrates how to deploy swift all-in-one **(SAIO)** in a Ubuntu 18.04 server. Deploying SAIO can be castigating and time-consuming. This thread shows us how to deploy a minimal SAIO. To continue with this article we need a VM. You can check out my [KVM-Virtualization-Ubuntu-20.04](https://github.com/rizwan192/KVM-Virtualization-Ubuntu-20.04) to install VM on your host machine. Our host machine is running Ubuntu-20.04 but the process is the same for Ubuntu-18.04 too.
+
+The VM we are using has the following configuration:
+
+* Ubuntu-18.04 Server
+* 2GB Ram
+* 2 vCPU
+* 10GB of vHD
+
+=======
 This process demonstrates how to deploy Open Stack Swift all-in-one **(SAIO)** in a Ubuntu 18.04 server. Deploying SAIO can be castigating and time-consuming. This thread shows us how to deploy a minimal SAIO
+>>>>>>> c420b41b4d7cdbee3cb21dc88ba23fe8ed1bab7e
 First, we install some dependencies.
 
  ```bash
@@ -246,3 +258,5 @@ We see a  ```204 No Content``` response as our container is empty
 ![img12](images/12.png)
 
 ## We can use python-swiftclient to make different types of requests to the containers and account. But 204 response is what we were looking for
+
+I will be updating this thread and add more details. In the meantime, if you have any queries please reach out to me at ```rizwanulratul.192@gmail.com```

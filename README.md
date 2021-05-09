@@ -9,7 +9,6 @@ The VM we are using has the following configuration:
 - 2 vCPU
 - 10GB of vHD
 
-This process demonstrates how to deploy Open Stack Swift all-in-one **(SAIO)** in a Ubuntu 18.04 server. Deploying SAIO can be castigating and time-consuming. This thread shows us how to deploy a minimal SAIO
 First, we install some dependencies.
 
 ```bash
